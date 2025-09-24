@@ -1,4 +1,11 @@
 # 🌈 QRGB - Multicolor QR Codes
+
+
+## VIBECODE OPSEC NOTICE  
+This code was largely produced by AI (Claude mainly) under my supervision. I work in infosec (pentesting and application security) and have reviewed it for glaring holes, but it's always possible to miss something. To my knowledge it's safe enough for general usage. Consider your own threat model and the sensitivity of your information when storing anything in any system. 
+
+---
+
 A Python library and CLI tool for creating and decoding multi-color QR codes that can store 3x more data than traditional QR codes by using RGB color channels.
 Features
 
