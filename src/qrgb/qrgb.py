@@ -2,6 +2,7 @@
 # /// script
 # requires-python = ">=3.8"
 # dependencies = [
+#     "gunicorn",
 #     "flask",
 #     "pillow",
 #     "numpy",

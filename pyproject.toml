@@ -30,6 +30,7 @@ dependencies = [
     "pyzbar",
     "typer",
     "rich",
+    "gunicorn>=23.0.0",
 ]
 
 [project.optional-dependencies]

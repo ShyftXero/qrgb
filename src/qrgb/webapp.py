@@ -1,6 +1,8 @@
 # /// script
 # requires-python = ">=3.8"
 # dependencies = [
+## VIBECODE OPSEC NOTICE  
+#     "gunicorn", 
 #     "flask",
 #     "pillow",
 #     "numpy",
