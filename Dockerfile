@@ -32,8 +32,8 @@ COPY pyproject.toml .
 RUN uv pip install --system --no-cache-dir -r pyproject.toml
 
 # Copy application files
-COPY webapp.py .
-COPY qrgb.py .
+COPY src/qrgb/webapp.py .
+COPY src/qrgb/qrgb.py .
 
 # Create uploads directory
 RUN mkdir -p uploads
@@ -46,4 +46,4 @@ ENV FLASK_APP=webapp.py
 ENV FLASK_ENV=production
 
 # Run the application
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "-w 4", "qrgb.webapp:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "-w 4", "webapp:app"]
