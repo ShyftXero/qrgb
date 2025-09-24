@@ -18,7 +18,10 @@ ASCII Art: Terminal-friendly visualization of color QR codes
 Grid Output: Export as Python data structures
 Docker Ready: Containerized with modern Python tooling
 
-Quick Start
+## Quick Start
+
+### online demo https://qrgb.shyft.us
+
 Installation
 # Install from PyPI (when published)
 uv pip install qrgb
