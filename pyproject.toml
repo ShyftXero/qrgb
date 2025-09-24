@@ -51,7 +51,7 @@ Repository = "https://github.com/shyftxero/qrgb"
 Issues = "https://github.com/shyftxero/qrgb/issues"
 
 [project.scripts]
-qrgb = "qrgb.cli:main"
+qrgb = "qrgb.cli:app"
 
 [build-system]
 requires = ["hatchling"]
