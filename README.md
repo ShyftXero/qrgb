@@ -24,7 +24,9 @@ Docker Ready: Containerized with modern Python tooling
 
 Installation
 # Install from PyPI (when published)
-uv pip install qrgb
+`uv tool install qrgb`
+or
+`uv pip install qrgb` for the library
 
 # Or install from source
 git clone <repo-url>
