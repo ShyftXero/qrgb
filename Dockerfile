@@ -46,4 +46,4 @@ ENV FLASK_APP=webapp.py
 ENV FLASK_ENV=production
 
 # Run the application
-CMD ["python", "webapp.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "-w 4", "qrgb.webapp:app"]
